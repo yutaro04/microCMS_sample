@@ -2,6 +2,7 @@
 
 ### 参考にした記事
 https://blog.microcms.io/microcms-next-jamstack-blog/
+※ここから結構アレンジを加えています
 
 ## 動作環境
 - node: v18.0.0
