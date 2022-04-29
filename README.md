@@ -27,6 +27,13 @@ https://blog.microcms.io/microcms-next-jamstack-blog/
 4. libs/client.jsの``` serviceDomain: 'mgwc797phg' ```の部分をご自身のサービスドメインに変更する
    1. serviceDomainはXXXX.microcms.ioの場合、XXXXの部分になります
 5. ``` npm run dev ```の実行
+6. [http://localhost:3000](http://localhost:3000)へアクセス
+
+## 記事作成方法
+1. [microCMS](https://microcms.io/)の管理画面に移動
+2. 「コンテンツ」の「ブログ」をクリック
+3. 右上の「＋追加」をクリック
+4. フォームを埋め、右上の「公開」をクリック
 
 ## 補足
 - index.htmlにて``` getStaticProps ```を使ってmicroCMSのデータを取得しているため、このサンプルアプリはSSG。
