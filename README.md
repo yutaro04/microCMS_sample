@@ -16,3 +16,5 @@ https://blog.microcms.io/microcms-next-jamstack-blog/
 - package.jsonがある階層に``` .env.development.local ```の作成
   - その内部に``` API_KEY=xxxxxxxxxxx ``` と記述(API_KEYはmicroCMSの「設定」->「APIキー」から確認可能)
 
+## 補足
+- index.htmlにて``` getStaticProps ```を使ってmicroCMSのデータを取得しているため、このサンプルアプリはSSG。
