@@ -8,7 +8,7 @@ export default function Home({ blog }) {
       <ul>
         {blog.map((blog) => (
           <li key={blog.id} className={styles.blog}>
-            <img src={`${blog.eyecatch.url}?fit=crop&w=200&h=100`}  />
+            <img src={`${blog.eyecatch.url}?fit=crop&w=200&h=100&q=20`}  />
             <Link href={`/blog/${blog.id}`}>
               <a>{blog.title}</a>
             </Link>
